@@ -1,0 +1,866 @@
+[
+ {
+  "element": "armoiries-maroc",
+  "variante": "couleur",
+  "categorie": "royaume",
+  "id": "armoiries-maroc",
+  "description": "Armoiries du Royaume (couleur)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/armoiries-maroc.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/royaume/armoiries-maroc.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/royaume/armoiries-maroc.png",
+    "format": "png",
+    "px": "1719x1752"
+   }
+  ]
+ },
+ {
+  "element": "armoiries-maroc",
+  "variante": "filigrane pâle",
+  "categorie": "royaume",
+  "id": "armoiries-maroc-filigrane",
+  "description": "Armoiries en gris très clair — filigrane / fond de page",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/armoiries-maroc-filigrane.png",
+    "format": "png",
+    "px": "900x920"
+   }
+  ]
+ },
+ {
+  "element": "armoiries-maroc",
+  "variante": "en-tête armoiries + texte trilingue",
+  "categorie": "royaume",
+  "id": "royaume-maroc-entete-ar-fr-tifinagh",
+  "description": "Armoiries + « المملكة المغربية / Royaume du Maroc / ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ » (horizontal)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/royaume-maroc-entete-ar-fr-tifinagh.png",
+    "format": "png",
+    "px": "703x261"
+   }
+  ]
+ },
+ {
+  "element": "drapeau-maroc",
+  "variante": "standard",
+  "categorie": "royaume",
+  "id": "drapeau-maroc",
+  "description": "Drapeau du Maroc",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/drapeau-maroc.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/royaume/drapeau-maroc.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/royaume/drapeau-maroc.png",
+    "format": "png",
+    "px": "2000x1300"
+   }
+  ]
+ },
+ {
+  "element": "carte-maroc",
+  "variante": "silhouette",
+  "categorie": "royaume",
+  "id": "carte-maroc",
+  "description": "Carte du Maroc (silhouette rouge, intégrité territoriale)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/carte-maroc.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/royaume/carte-maroc.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/royaume/carte-maroc.png",
+    "format": "png",
+    "px": "1657x1761"
+   }
+  ]
+ },
+ {
+  "element": "carte-maroc",
+  "variante": "12 régions",
+  "categorie": "royaume",
+  "id": "carte-maroc-regions",
+  "description": "Carte du Maroc avec les 12 régions",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/carte-maroc-regions.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/royaume/carte-maroc-regions.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/royaume/carte-maroc-regions.png",
+    "format": "png",
+    "px": "1656x1760"
+   }
+  ]
+ },
+ {
+  "element": "carte-maroc",
+  "variante": "avec étoile",
+  "categorie": "royaume",
+  "id": "carte-maroc-etoile",
+  "description": "Carte du Maroc rouge avec l'étoile verte",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/royaume/carte-maroc-etoile.png",
+    "format": "png",
+    "px": "1955x2043"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "emblème seul",
+  "categorie": "ministere-sante",
+  "id": "ms-embleme",
+  "description": "Emblème MS seul (carré bleu, croissant, vague) — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/ms-embleme.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/ms-embleme.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/ms-embleme.png",
+    "format": "png",
+    "px": "1194x1092"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "vertical trilingue",
+  "categorie": "ministere-sante",
+  "id": "msps-logo-vertical",
+  "description": "Logo MSPS : emblème + texte arabe / tifinagh / français dessous — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-vertical.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-vertical.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-vertical.png",
+    "format": "png",
+    "px": "1736x1415"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "horizontal trilingue",
+  "categorie": "ministere-sante",
+  "id": "msps-logo-horizontal",
+  "description": "Logo MSPS horizontal : texte trilingue à gauche, emblème à droite",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-horizontal.png",
+    "format": "png",
+    "px": "875x199"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "bandeau Royaume, ancien nom",
+  "categorie": "ministere-sante",
+  "id": "ms-entete-royaume-bleu",
+  "description": "Bandeau d'en-tête bleu : Royaume du Maroc / Ministère de la Santé + armoiries (ancien nom)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/ms-entete-royaume-bleu.png",
+    "format": "png",
+    "px": "1564x288"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "bandeau Royaume + MSPS",
+  "categorie": "ministere-sante",
+  "id": "msps-entete-royaume",
+  "description": "Bandeau d'en-tête : Royaume du Maroc / Ministère de la Santé et de la Protection sociale + armoiries",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/msps-entete-royaume.png",
+    "format": "png",
+    "px": "1209x193"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "emblème seul — noir & blanc",
+  "categorie": "ministere-sante",
+  "id": "ms-embleme-nb",
+  "description": "Emblème du Ministère de la Santé en niveaux de gris (impression N&B, fond transparent) — même rendu que le formulaire cessation/reprise",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/ms-embleme-nb.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/ms-embleme-nb.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/ms-embleme-nb.png",
+    "format": "png",
+    "px": "1020x932"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "vertical trilingue — noir & blanc",
+  "categorie": "ministere-sante",
+  "id": "msps-logo-vertical-nb",
+  "description": "Logo MSPS vertical trilingue en niveaux de gris (impression N&B, fond transparent)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-vertical-nb.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-vertical-nb.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-vertical-nb.png",
+    "format": "png",
+    "px": "1655x1349"
+   }
+  ]
+ },
+ {
+  "element": "ministere-sante",
+  "variante": "horizontal trilingue — noir & blanc",
+  "categorie": "ministere-sante",
+  "id": "msps-logo-horizontal-nb",
+  "description": "Logo MSPS horizontal trilingue en niveaux de gris (impression N&B, fond transparent)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/ministere-sante/msps-logo-horizontal-nb.png",
+    "format": "png",
+    "px": "875x199"
+   }
+  ]
+ },
+ {
+  "element": "chu-mohammed-vi",
+  "variante": "vertical grand",
+  "categorie": "chu-marrakech",
+  "id": "chu-mohammed-vi-embleme",
+  "description": "CHU Mohammed VI Marrakech — palmier + nom (vertical, grand)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/chu-marrakech/chu-mohammed-vi-embleme.png",
+    "format": "png",
+    "px": "724x863"
+   }
+  ]
+ },
+ {
+  "element": "chu-mohammed-vi",
+  "variante": "horizontal",
+  "categorie": "chu-marrakech",
+  "id": "chu-mohammed-vi-paysage",
+  "description": "CHU Mohammed VI — palmier + nom ar/fr (horizontal)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/chu-marrakech/chu-mohammed-vi-paysage.png",
+    "format": "png",
+    "px": "1004x498"
+   }
+  ]
+ },
+ {
+  "element": "chu-mohammed-vi",
+  "variante": "bandeau Royaume + MSPS + CHU",
+  "categorie": "chu-marrakech",
+  "id": "chu-mohammed-vi-entete-msps",
+  "description": "Bandeau Royaume + MSPS + CHU Mohammed VI (ar/fr, très large)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/chu-marrakech/chu-mohammed-vi-entete-msps.png",
+    "format": "png",
+    "px": "1044x202"
+   }
+  ]
+ },
+ {
+  "element": "chu-mohammed-vi",
+  "variante": "portrait petit",
+  "categorie": "chu-marrakech",
+  "id": "chu-mohammed-vi-portrait",
+  "description": "CHU Mohammed VI — version portrait (petite, 180 px)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/chu-marrakech/chu-mohammed-vi-portrait.png",
+    "format": "png",
+    "px": "163x246"
+   }
+  ]
+ },
+ {
+  "element": "hopital-ibn-tofail",
+  "variante": "en-tête",
+  "categorie": "chu-marrakech",
+  "id": "hopital-ibn-tofail-entete",
+  "description": "En-tête Hôpital Ibn Tofail (CHU Mohammed VI)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/chu-marrakech/hopital-ibn-tofail-entete.png",
+    "format": "png",
+    "px": "690x141"
+   }
+  ]
+ },
+ {
+  "element": "hopital-ibn-tofail",
+  "variante": "service imagerie HIT",
+  "categorie": "chu-marrakech",
+  "id": "radiologie-ibn-tofail-hit",
+  "description": "Service Imagerie Médicale HIT (Ibn Tofail) — petit, 192 px",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/chu-marrakech/radiologie-ibn-tofail-hit.png",
+    "format": "png",
+    "px": "189x67"
+   }
+  ]
+ },
+ {
+  "element": "fmpm",
+  "variante": "palmes + texte, horizontal",
+  "categorie": "fmpm-uca",
+  "id": "fmpm-uca-couleur",
+  "description": "FMPM + UCA (palmes cuivre + texte ar/fr, horizontal)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/fmpm-uca/fmpm-uca-couleur.png",
+    "format": "png",
+    "px": "1709x696"
+   }
+  ]
+ },
+ {
+  "element": "fmpm",
+  "variante": "texte bleu seul",
+  "categorie": "fmpm-uca",
+  "id": "fmpm-texte-bleu",
+  "description": "FMPM texte seul ar/fr en bleu",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/fmpm-uca/fmpm-texte-bleu.png",
+    "format": "png",
+    "px": "1744x899"
+   }
+  ]
+ },
+ {
+  "element": "fmpm",
+  "variante": "cartouche arrondi",
+  "categorie": "fmpm-uca",
+  "id": "fmpm-uca-encadre",
+  "description": "FMPM + UCA avec cadre arrondi (petit, 339 px)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/fmpm-uca/fmpm-uca-encadre.png",
+    "format": "png",
+    "px": "345x159"
+   }
+  ]
+ },
+ {
+  "element": "universite-cadi-ayyad",
+  "variante": "vertical",
+  "categorie": "fmpm-uca",
+  "id": "uca-universite-cadi-ayyad",
+  "description": "Université Cadi Ayyad Marrakech — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/fmpm-uca/uca-universite-cadi-ayyad.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/fmpm-uca/uca-universite-cadi-ayyad.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/fmpm-uca/uca-universite-cadi-ayyad.png",
+    "format": "png",
+    "px": "949x1191"
+   }
+  ]
+ },
+ {
+  "element": "oms",
+  "variante": "français",
+  "categorie": "international",
+  "id": "oms-fr",
+  "description": "OMS — Organisation mondiale de la Santé (français)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/international/oms-fr.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/international/oms-fr.png",
+    "format": "png",
+    "px": "2612x700"
+   }
+  ]
+ },
+ {
+  "element": "oms",
+  "variante": "anglais",
+  "categorie": "international",
+  "id": "who-en",
+  "description": "WHO — World Health Organization (anglais) — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/international/who-en.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/international/who-en.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/international/who-en.png",
+    "format": "png",
+    "px": "1199x385"
+   }
+  ]
+ },
+ {
+  "element": "ordre-medecins",
+  "variante": "emblème doré",
+  "categorie": "organismes-sante",
+  "id": "ordre-medecins-embleme",
+  "description": "Conseil National de l'Ordre des Médecins — emblème doré — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/ordre-medecins-embleme.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/ordre-medecins-embleme.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/ordre-medecins-embleme.png",
+    "format": "png",
+    "px": "1202x1204"
+   }
+  ]
+ },
+ {
+  "element": "ordre-medecins",
+  "variante": "bandeau ar/fr",
+  "categorie": "organismes-sante",
+  "id": "ordre-medecins-bandeau",
+  "description": "Ordre National des Médecins — bandeau ar/fr + armoiries",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/ordre-medecins-bandeau.png",
+    "format": "png",
+    "px": "586x81"
+   }
+  ]
+ },
+ {
+  "element": "croissant-rouge-marocain",
+  "variante": "standard",
+  "categorie": "organismes-sante",
+  "id": "croissant-rouge-marocain",
+  "description": "Croissant-Rouge Marocain — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/croissant-rouge-marocain.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/croissant-rouge-marocain.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/croissant-rouge-marocain.png",
+    "format": "png",
+    "px": "1190x1190"
+   }
+  ]
+ },
+ {
+  "element": "ligue-lutte-tuberculose",
+  "variante": "standard",
+  "categorie": "organismes-sante",
+  "id": "ligue-lutte-tuberculose",
+  "description": "Ligue Marocaine de Lutte contre la Tuberculose — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/ligue-lutte-tuberculose.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/ligue-lutte-tuberculose.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/ligue-lutte-tuberculose.png",
+    "format": "png",
+    "px": "1199x852"
+   }
+  ]
+ },
+ {
+  "element": "centre-transfusion-sanguine",
+  "variante": "générique",
+  "categorie": "organismes-sante",
+  "id": "cts-centre-transfusion-sanguine",
+  "description": "Centre (Régional) de Transfusion Sanguine — générique, sans nom de ville — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/cts-centre-transfusion-sanguine.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/cts-centre-transfusion-sanguine.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/cts-centre-transfusion-sanguine.png",
+    "format": "png",
+    "px": "1160x1224"
+   }
+  ]
+ },
+ {
+  "element": "centre-transfusion-sanguine",
+  "variante": "Errachidia",
+  "categorie": "organismes-sante",
+  "id": "cts-errachidia",
+  "description": "Centre Régional de Transfusion Sanguine Errachidia — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/cts-errachidia.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/cts-errachidia.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/cts-errachidia.png",
+    "format": "png",
+    "px": "930x1205"
+   }
+  ]
+ },
+ {
+  "element": "fondation-mohammed-v",
+  "variante": "standard",
+  "categorie": "organismes-sante",
+  "id": "fondation-mohammed-v",
+  "description": "Fondation Mohammed V pour la Solidarité — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/organismes-sante/fondation-mohammed-v.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/fondation-mohammed-v.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/organismes-sante/fondation-mohammed-v.png",
+    "format": "png",
+    "px": "560x1201"
+   }
+  ]
+ },
+ {
+  "element": "far",
+  "variante": "écusson",
+  "categorie": "militaire",
+  "id": "far-forces-armees-royales",
+  "description": "Forces Armées Royales (écusson) — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/militaire/far-forces-armees-royales.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/militaire/far-forces-armees-royales.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/militaire/far-forces-armees-royales.png",
+    "format": "png",
+    "px": "725x1185"
+   }
+  ]
+ },
+ {
+  "element": "hopital-militaire-marrakech",
+  "variante": "écusson + texte",
+  "categorie": "militaire",
+  "id": "hopital-militaire-marrakech",
+  "description": "Hôpital Militaire Marrakech — écusson + texte",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/militaire/hopital-militaire-marrakech.png",
+    "format": "png",
+    "px": "928x417"
+   }
+  ]
+ },
+ {
+  "element": "hopital-militaire-marrakech",
+  "variante": "avec anneaux",
+  "categorie": "militaire",
+  "id": "hopital-militaire-marrakech-v2",
+  "description": "Hôpital Militaire Marrakech — variante (écusson avec anneaux)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/militaire/hopital-militaire-marrakech-v2.png",
+    "format": "png",
+    "px": "919x455"
+   }
+  ]
+ },
+ {
+  "element": "faculte-pharmacie-paris-saclay",
+  "variante": "standard",
+  "categorie": "autres",
+  "id": "faculte-pharmacie-paris-saclay",
+  "description": "Faculté de Pharmacie — Université Paris-Saclay",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/autres/faculte-pharmacie-paris-saclay.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/autres/faculte-pharmacie-paris-saclay.png",
+    "format": "png",
+    "px": "2040x397"
+   }
+  ]
+ },
+ {
+  "element": "banque-populaire",
+  "variante": "standard",
+  "categorie": "autres",
+  "id": "banque-populaire",
+  "description": "Banque Populaire du Maroc — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/autres/banque-populaire.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/autres/banque-populaire.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/autres/banque-populaire.png",
+    "format": "png",
+    "px": "1202x593"
+   }
+  ]
+ },
+ {
+  "element": "ministere-transition-numerique",
+  "variante": "en-tête",
+  "categorie": "autres",
+  "id": "ministere-transition-numerique",
+  "description": "Ministère de la Transition numérique et de la Réforme de l'Administration (en-tête)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/autres/ministere-transition-numerique.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/autres/ministere-transition-numerique.png",
+    "format": "png",
+    "px": "1629x603"
+   }
+  ]
+ },
+ {
+  "element": "ministere-jeunesse-culture-communication",
+  "variante": "blanc, fond sombre",
+  "categorie": "autres",
+  "id": "ministere-jeunesse-culture-communication",
+  "description": "Ministère de la Jeunesse, de la Culture et de la Communication (blanc, pour fond sombre)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/autres/ministere-jeunesse-culture-communication.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/autres/ministere-jeunesse-culture-communication.png",
+    "format": "png",
+    "px": "1632x592"
+   }
+  ]
+ },
+ {
+  "element": "region-marrakech-safi",
+  "variante": "emblème seul",
+  "categorie": "region-marrakech-safi",
+  "id": "region-marrakech-safi-embleme",
+  "description": "Région Marrakech-Safi — emblème (rosace bleue/orange) seul",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/region-marrakech-safi/region-marrakech-safi-embleme.png",
+    "format": "png",
+    "px": "336x366"
+   }
+  ]
+ },
+ {
+  "element": "region-marrakech-safi",
+  "variante": "vertical ar/fr",
+  "categorie": "region-marrakech-safi",
+  "id": "region-marrakech-safi-vertical",
+  "description": "Région Marrakech-Safi — emblème + « جهة مراكش أسفي / Région Marrakech Safi » dessous",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/region-marrakech-safi/region-marrakech-safi-vertical.png",
+    "format": "png",
+    "px": "341x428"
+   }
+  ]
+ },
+ {
+  "element": "region-marrakech-safi",
+  "variante": "horizontal trilingue",
+  "categorie": "region-marrakech-safi",
+  "id": "region-marrakech-safi-horizontal",
+  "description": "Région Marrakech-Safi — texte ar/tifinagh/fr + emblème à droite (petit, 297 px)",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/region-marrakech-safi/region-marrakech-safi-horizontal.png",
+    "format": "png",
+    "px": "297x77"
+   }
+  ]
+ },
+ {
+  "element": "drapeau-region-marrakech-safi",
+  "variante": "standard",
+  "categorie": "region-marrakech-safi",
+  "id": "drapeau-region-marrakech-safi",
+  "description": "Drapeau de la Région Marrakech-Safi — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/region-marrakech-safi/drapeau-region-marrakech-safi.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/region-marrakech-safi/drapeau-region-marrakech-safi.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/region-marrakech-safi/drapeau-region-marrakech-safi.png",
+    "format": "png",
+    "px": "2000x1333"
+   }
+  ]
+ },
+ {
+  "element": "armoiries-ville-marrakech",
+  "variante": "grandes armoiries",
+  "categorie": "region-marrakech-safi",
+  "id": "armoiries-ville-marrakech",
+  "description": "Grandes armoiries de la ville de Marrakech (couronne, Koutoubia) — vectoriel",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/region-marrakech-safi/armoiries-ville-marrakech.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/region-marrakech-safi/armoiries-ville-marrakech.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/region-marrakech-safi/armoiries-ville-marrakech.png",
+    "format": "png",
+    "px": "822x1600"
+   }
+  ]
+ },
+ {
+  "element": "almoquim",
+  "variante": "badge rond",
+  "categorie": "associations",
+  "id": "almoquim-association-medecins-residents-marrakech",
+  "description": "ALMOQUIM (المقيم) — Association des Médecins Résidents de Marrakech — badge rond vectoriel : illustration et textes tracés, anneaux en cercles exacts, rosace marocaine redessinée en traits continus sur la géométrie mesurée de l'original",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/associations/almoquim-association-medecins-residents-marrakech.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/associations/almoquim-association-medecins-residents-marrakech.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/associations/almoquim-association-medecins-residents-marrakech.png",
+    "format": "png",
+    "px": "1992x1992"
+   }
+  ]
+ },
+ {
+  "element": "amima",
+  "variante": "badge rond",
+  "categorie": "associations",
+  "id": "amima-association-medecins-internes-marrakech",
+  "description": "A.M.I.M.A — Association des Médecins Internes de Marrakech (جمعية الأطباء الداخليين بمراكش) — badge rond — vectorisé (tracé depuis JPG 447 agrandi ×4) ; couleurs aplaties",
+  "fichiers": [
+   {
+    "fichier": "assets/logos/associations/amima-association-medecins-internes-marrakech.svg",
+    "format": "svg"
+   },
+   {
+    "fichier": "assets/logos/associations/amima-association-medecins-internes-marrakech.pdf",
+    "format": "pdf"
+   },
+   {
+    "fichier": "assets/logos/associations/amima-association-medecins-internes-marrakech.png",
+    "format": "png",
+    "px": "2000x2000"
+   }
+  ]
+ }
+]
