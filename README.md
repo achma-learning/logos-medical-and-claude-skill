@@ -6,7 +6,7 @@ Skill Claude : bibliothèque de **48 logos officiels marocains** (PNG transparen
 
 ## Installation
 
-- **Claude (app)** : Paramètres → Capacités → Skills → importer le dossier zippé `logos-officiels-maroc/` (celui qui contient `SKILL.md`).
+- **Claude (app)** : `./build.sh` → importer `dist/logos-officiels-maroc.zip` dans Paramètres → Capacités → Skills.
 - **Claude Code** : copier le dossier dans `~/.claude/skills/logos-officiels-maroc/`.
 
 ## Usage rapide
@@ -22,8 +22,12 @@ python3 scripts/donner_logo.py <id> --sortie ./out    # remettre en PNG transpar
 SKILL.md                 instructions lues par Claude
 assets/catalogue.json    index des logos (id, variante, fichiers)
 assets/catalogue.png     planche d'aperçu
-assets/logos/<catégorie>/ fichiers sources
-scripts/                 donner / optimiser / agrandir / vectoriser + formulaires PDF
+assets/logos/<catégorie>/ fichiers des logos (seul emplacement — pas de copie ailleurs)
+assets/couleur, assets/nb logos des formulaires PDF
+scripts/                 donner / optimiser / agrandir / vectoriser / planche + formulaires PDF
+outils/                  vérification du catalogue (hors skill)
+build.sh                 planche + vérification + zip de la skill dans dist/
+CONTEXT.md               contexte du projet pour les assistants IA
 ```
 
 ## Catalogue
@@ -128,7 +132,7 @@ scripts/                 donner / optimiser / agrandir / vectoriser + formulaire
 
 ## Contribuer
 
-Logos manquants → voir [`to-add.md`](to-add.md). Après ajout d'un fichier : mettre à jour `assets/catalogue.json` (et `catalogue.png`).
+Logos manquants → voir [`to-add.md`](to-add.md). Après ajout d'un fichier : mettre à jour `assets/catalogue.json` et les tableaux de `SKILL.md` / `README.md`, puis lancer `./build.sh` (régénère `catalogue.png` et signale tout écart).
 
 ## Avertissement
 
