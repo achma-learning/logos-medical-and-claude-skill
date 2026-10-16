@@ -22,7 +22,7 @@ Consignes explicites de l'utilisateur — à appliquer à chaque fois.
    - demander laquelle avec AskUserQuestion (jusqu'à 4 options : libellé = variante, description = format/taille) ; au-delà de 4, demander le numéro sur la planche ;
    - si la recherche couvre plusieurs éléments (ex. « CHU » → CHU Mohammed VI + Hôpital Ibn Tofail), demander d'abord l'élément puis la variante — ou proposer directement les meilleures si c'est clair.
    Puis étape 2. Si l'utilisateur dit « tous » / « toutes les versions », remettre chaque variante.
-4. **Aucune correspondance** → le dire en une phrase, indiquer où le chercher — en priorité le site officiel de l'organisme, puis **[vector.ma](https://vector.ma/)** (logos marocains, souvent vectoriels) et **[seeklogo.com](https://seeklogo.com/)** (fichiers `.ai`/SVG) — demander de l'uploader, et proposer de l'ajouter à la bibliothèque (voir « Ajouter un logo »). L'utilisateur tient la liste des logos manquants dans `TO-ADD.md` à la racine de son dépôt GitHub de la skill : si le logo n'y figure pas, lui proposer la ligne à ajouter (format du tableau : `| [ ] | prio | element | variantes | remarque |`).
+4. **Aucune correspondance** → le dire en une phrase, indiquer où le chercher — en priorité le site officiel de l'organisme, puis **[vector.ma](https://vector.ma/)** (logos marocains, souvent vectoriels) et **[seeklogo.com](https://seeklogo.com/)** (fichiers `.ai`/SVG) — demander de l'uploader, et proposer de l'ajouter à la bibliothèque (voir « Ajouter un logo »). L'utilisateur tient la liste des logos manquants dans `to-add.md` à la racine de son dépôt GitHub de la skill : si le logo n'y figure pas, lui proposer la ligne à ajouter (format du tableau : `| [ ] | prio | element | variantes | remarque |`).
 5. Après la remise, une ligne au plus : proposer SVG/PDF s'ils existent (`--format svg|pdf|tous`) et/ou la version N&B (`--nb`).
 
 Options utiles : `--largeur 800` (redimensionne ; les logos vectoriels sont re-rendus nets même au-delà de la taille stockée), `--nb [gamma]` (gris assombri pour impression N&B, transparence conservée), `--format tous`.
@@ -77,6 +77,9 @@ Chaque entrée = un **élément** (organisme) + une **variante** ; un élément 
 | ministere-sante | horizontal trilingue | `msps-logo-horizontal` | png 875x199 |
 | ministere-sante | bandeau Royaume, ancien nom | `ms-entete-royaume-bleu` | png 1564x288 |
 | ministere-sante | bandeau Royaume + MSPS | `msps-entete-royaume` | png 1209x193 |
+| ministere-sante | emblème seul — noir & blanc | `ms-embleme-nb` | svg, pdf, png 1020x932 |
+| ministere-sante | vertical trilingue — noir & blanc | `msps-logo-vertical-nb` | svg, pdf, png 1655x1349 |
+| ministere-sante | horizontal trilingue — noir & blanc | `msps-logo-horizontal-nb` | png 875x199 |
 
 ### CHU Mohammed VI Marrakech
 
@@ -161,7 +164,7 @@ Sources où chercher (dans cet ordre) : site officiel de l'organisme (version à
 2. **Nouvelle variante d'un élément existant** (cas le plus courant) : réutiliser son `element` exact, choisir une `variante` courte et distinctive (ex. « vertical bleu », « bandeau 2024 », « arabe seul ») et un `id` = `<element>-<variante-en-slug>`. Vérifier d'abord avec `--apercu` que ce n'est pas un doublon visuel d'une variante déjà présente (même dessin, simple différence de taille → garder la meilleure résolution, ne pas ajouter).
    **Nouvel élément** : nouvel `element` en slug (nom de l'organisme).
    Fichiers : `assets/logos/<categorie>/<id>.<ext>` ; entrée dans `catalogue.json` (`element`, `variante`, `id`, `categorie`, `description`, `fichiers` avec `px` pour le PNG).
-3. Régénérer `catalogue.png`, mettre à jour le tableau ci-dessus, cocher la ligne correspondante dans `TO-ADD.md` du dépôt et la déplacer dans « Fait », puis repackager (`./build.sh` à la racine du dépôt).
+3. Régénérer `catalogue.png` (`python3 scripts/planche_catalogue.py`), mettre à jour le tableau ci-dessus et celui du `README.md`, cocher la ligne correspondante dans `to-add.md` du dépôt et la déplacer dans « Fait », puis repackager : `./build.sh` à la racine du dépôt (vérifie que `assets/`, `catalogue.json`, `SKILL.md` et `README.md` listent les mêmes logos, puis crée `dist/logos-officiels-maroc.zip`).
 
 ## Formulaires prêts (A4, vectoriels, optimisés impression N&B)
 

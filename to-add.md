@@ -1,7 +1,12 @@
 # Logos à ajouter
 
-Sources habituelles : vector.ma, seeklogo.com
+Sources habituelles (dans cet ordre) : site officiel de l'organisme → [vector.ma](https://vector.ma/) → [seeklogo.com](https://seeklogo.com/) → Wikimedia Commons.
 
-| Organisme | Variante voulue | Source trouvée | Statut |
-|---|---|---|---|
-|  |  |  | à chercher |
+| ✓ | Prio | Élément | Variantes voulues | Remarque |
+|---|---|---|---|---|
+| [ ] |  |  |  |  |
+
+## Fait
+
+| ✓ | Prio | Élément | Variantes | Remarque |
+|---|---|---|---|---|

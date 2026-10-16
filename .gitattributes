@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Never convert line endings inside images / PDFs
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
